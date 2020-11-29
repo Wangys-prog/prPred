@@ -1,7 +1,6 @@
 # <prPred>
-Prediction plant resistance proteins (R proteins)
 
-prPred is a tool to to rapidly identify the R proteins of plant
+prPred is a tool to to rapidly identify the plant resistance proteins (R proteins) 
 
 
 ## **Prerequisites**
@@ -17,8 +16,8 @@ prPred is a tool to to rapidly identify the R proteins of plant
    
    > sudo apt-get install hmmer
    
-   #### **Another way to install it
-   **Download and build the source code release(optional)
+   #### **Another way to install it**
+   **Download and build the source code release(optional)**
    
    > wget http://eddylab.org/software/hmmer/hmmer.tar.gz  
    tar zxf hmmer.tar.gz  
@@ -28,7 +27,7 @@ prPred is a tool to to rapidly identify the R proteins of plant
    make check  
    > make install  
  
-   #### ** prPred need add HMMER to the environment variable (/usr/bin/;/usr/local/bin/)**
+   #### **prPred need add HMMER to the environment variable (/usr/bin/;/usr/local/bin/)**
    > vim ~/.bashrc    
    i    
    export PATH=$PATH:/your/install/path  
@@ -57,7 +56,7 @@ prPred is a tool to to rapidly identify the R proteins of plant
     After hmmpress, we will get four files: Pfam-A.hmm.h3f，Pfam-A.hmm.h3i，Pfam-A.hmm.h3m，Pfam-A.hmm.h3p
     '''
    
-   **Add PFAMDB (Pfam-A.hmm.h3f，Pfam-A.hmm.h3i，Pfam-A.hmm.h3m，Pfam-A.hmm.h3p) into environment variables 
+   **Add PFAMDB (Pfam-A.hmm.h3f，Pfam-A.hmm.h3i，Pfam-A.hmm.h3m，Pfam-A.hmm.h3p) into environment variables** 
    
    > export PFAMDB=/xxxx/xxxx/xxxx/Pfam  
 
@@ -68,9 +67,9 @@ prPred is a tool to to rapidly identify the R proteins of plant
 
 > git clone git@github.com:Wangys-prog/prPred.git  
 
-**Add prPred into into environment variables
+**Add prPred into into environment variables**
 
-**(./prPred/dist/prPred)
+**(./prPred/dist/prPred)**
 
 > export PATH=$PATH:/xxxx/xxxx/xxxx/prPred/dist/prPred  
 
@@ -85,13 +84,13 @@ $ -o  output folder
 
 > prPred -i /xxxx/xxxx/test/test.fasta -o result  
 
-**or
-** Using absolute path to invoke prPred.py (/xxxx/xxxx/prPred/prPred.py)
+**or**
+**Using absolute path to invoke prPred.py (/xxxx/xxxx/prPred/prPred.py)**
 
 > python xxxx/xxxx/prPred/prPred.py -i /xxxx/xxxx/test/test.fasta -o result  
 
 
-**Output file 
+**Output file**
 
 > domain_result.csv  
 > R_protein_possibility.fasta
