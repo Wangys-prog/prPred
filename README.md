@@ -11,7 +11,7 @@ prPred is a tool to to rapidly identify the plant resistance proteins (R protein
    We also provide  HMMER zipped folders for download in prPred
    
    
-   '<**prPred need to make sure that the HMmer is in the environment variable**>'
+   <**prPred need to make sure that the HMMER is in the environment variable**>
    
    
    #### **Install HMMER in Ubuntu**  
@@ -37,10 +37,11 @@ prPred is a tool to to rapidly identify the plant resistance proteins (R protein
    > source ~/.bashrc  
 
 ### 2. **phobius**
+
    Phobius:prediction of transmembrane topology and signal peptides from the amino acid sequence of a protein.
    To obtain phobius releases, please visit https://phobius.sbc.su.se/data.html.  
    
-   **The software will be shipped immediately in the form of an attachment to the e-mail address you specify below**
+   <**The software will be shipped immediately in the form of an attachment to the e-mail address you specify below**>
    
    **Add phobius into environment variables
    
@@ -49,6 +50,7 @@ prPred is a tool to to rapidly identify the plant resistance proteins (R protein
   
    
 ### 3. **PFAMDB**
+
    To obtain Pfam database,please download from  ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
    
    > wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz  
@@ -91,7 +93,7 @@ $ -o  output folder
 **or**
 **Using absolute path to invoke prPred.py (/xxxx/xxxx/prPred/prPred.py)**
 
-> python xxxx/xxxx/prPred/prPred.py -i /xxxx/xxxx/test/test.fasta -o result  
+> python xxxx/xxxx/prPred/prPred.py -i /xxxx/xxxx/test/test.fasta -o /xxxx/xxxxx/result  
 
 
 **Output file**
