@@ -103,7 +103,7 @@ $ -o  output folder
 
 **Output file**
 
-> domain_result.csv  
+> domain_result 
 > R_protein_possibility.fasta
  
  
