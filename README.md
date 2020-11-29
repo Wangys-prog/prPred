@@ -110,7 +110,7 @@ $ -o  output folder
 
 **Download Ubuntu xx.x LTS from Microsoft Store
 
-> cd ../../
-> cd mnt/x/xxxx/xxxx/prPred/
+> cd ../../  
+> cd mnt/x/xxxx/xxxx/prPred/  
 
 
