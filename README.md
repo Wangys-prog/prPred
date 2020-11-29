@@ -43,7 +43,19 @@ prPred is a tool to identify the plant resistance proteins (R proteins)
    Phobius:prediction of transmembrane topology and signal peptides from the amino acid sequence of a protein.
    To obtain phobius releases, please visit https://phobius.sbc.su.se/data.html.  
    
+   installation procedure  https://www.jianshu.com/p/32176552cb5c
+   
    <**The software will be shipped immediately in the form of an attachment to the e-mail address you specify below**>
+    
+   > tar -xzvf phobius101_linux.tar.gz  
+
+   > cd /xxxx/xxxx/xxxx/tmp/tmpbKioAY/phobius
+   
+      '''
+      Error - could not read provided fasta sequences
+      Modify line 24 in phobius.pl
+      '''
+   >  my $DECODEANHMM = "$PHOBIUS_DIR/decodeanhmm.64bit" 
    
    **Add phobius into environment variables
    
