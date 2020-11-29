@@ -55,9 +55,10 @@ prPred is a tool to identify the plant resistance proteins (R proteins)
 
    To obtain Pfam database,please download from  ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
    
-   > wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz  
-     gunzip Pfam-A.hmm.gz  
+   > mkdir Pfam  
      cd Pfam  
+     wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz  
+     gunzip Pfam-A.hmm.gz   
    > hmmpress Pfam-A.hmm  
    
     '''
