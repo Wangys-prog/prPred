@@ -54,10 +54,10 @@ prPred is a tool to identify the plant resistance proteins (R proteins)
       '''
       Error - could not read provided fasta sequences
       Modify line 24 in phobius.pl
+      my $DECODEANHMM = "$PHOBIUS_DIR/decodeanhmm.64bit"
       '''
-   >  my $DECODEANHMM = "$PHOBIUS_DIR/decodeanhmm.64bit" 
    
-   **Add phobius into environment variables
+   **Add phobius into environment variables**
    
    > export PATH=$PATH:/xxxx/xxxx/xxxxx/tmp/tmpbKioAY/phobius  
   
