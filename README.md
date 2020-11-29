@@ -10,9 +10,9 @@ prPred is a tool to to rapidly identify the plant resistance proteins (R protein
    To obtain HMMER releases, please visit http://hmmer.org/. 
    We also provide  HMMER zipped folders for download in prPred
    
-   
-   > **prPred need to make sure that the HMmer is in the environment variable**
-  
+   ***
+   **prPred need to make sure that the HMmer is in the environment variable**
+   ***
    
    #### **Install HMMER in Ubuntu**  
    
@@ -38,13 +38,16 @@ prPred is a tool to to rapidly identify the plant resistance proteins (R protein
 
 ### 2. **phobius**
    Phobius:prediction of transmembrane topology and signal peptides from the amino acid sequence of a protein.
-   To obtain phobius releases, please visit https://phobius.sbc.su.se/data.html.
-   '''
-   The software will be shipped immediately in the form of an attachment to the e-mail address you specify below
-   '''
+   To obtain phobius releases, please visit https://phobius.sbc.su.se/data.html.  
+   ***
+   **The software will be shipped immediately in the form of an attachment to the e-mail address you specify below**
+   ***
+   
    **Add phobius into environment variables
    
    > export PATH=$PATH:/xxxx/xxxx/xxxxx/tmp/tmpbKioAY/phobius  
+  
+  
    
 ### 3. **PFAMDB**
    To obtain Pfam database,please download from  ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
