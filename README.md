@@ -1,6 +1,6 @@
 # <prPred>
 
-prPred is a tool to to rapidly identify the plant resistance proteins (R proteins) 
+prPred is a tool to identify the plant resistance proteins (R proteins) 
 
 
 ## **Prerequisites**
