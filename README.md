@@ -3,9 +3,9 @@
 # prPred
 prPred is a tool to identify the plant resistance proteins (R proteins) 
 
-***
+
 ## **Prerequisites**
-***
+
 
 ### 1. **HMMER**
 
@@ -68,9 +68,9 @@ prPred is a tool to identify the plant resistance proteins (R proteins)
    
    > export PFAMDB=/xxxx/xxxx/xxxx/Pfam  
 
-***
+
 ## **Installation**
-***
+
 
 **prPred**
 
@@ -82,9 +82,9 @@ prPred is a tool to identify the plant resistance proteins (R proteins)
 
 > export PATH=$PATH:/xxxx/xxxx/xxxx/prPred/dist/prPred  
 
-***
+
 ## Input parameters
-***
+
 
 > prPred -h  
 $ -i  inputfile in FASTA format  
