@@ -11,14 +11,19 @@ prPred is a tool to to rapidly identify the R proteins of plant
    To obtain HMMER releases, please visit http://hmmer.org/. 
    We also provide  HMMER zipped folders for download in prPred
    
-   #### ** install HMMER in Ubuntu**  
+   #### **Install HMMER in Ubuntu**  
    
    > sudo apt-get install hmmer
    
    #### **download and build the source code release**
    
    > wget http://eddylab.org/software/hmmer/hmmer.tar.gz
-     tar zxf hmmer.tar.gz
+   > tar zxf hmmer.tar.gz
+   > cd hmmer-3.3.2
+   > ./configure --prefix /your/install/path
+   > make
+   > make check
+   > make install
    
    hmmer.tar.gz
 ### 2. **phobius**
