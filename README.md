@@ -105,6 +105,12 @@ $ -o  output folder
 > domain_result.csv  
 > R_protein_possibility.fasta
  
+ 
+### For windows 10 or later
 
+**Download Ubuntu xx.x LTS from Microsoft Store
+
+> cd ../../
+> cd mnt/x/xxxx/xxxx/prPred/
 
 
