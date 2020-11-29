@@ -10,9 +10,9 @@ prPred is a tool to to rapidly identify the plant resistance proteins (R protein
    To obtain HMMER releases, please visit http://hmmer.org/. 
    We also provide  HMMER zipped folders for download in prPred
    
-   '''
-   prPred need to make sure that the HMmer is in the environment variable
-   '''
+   
+   > **prPred need to make sure that the HMmer is in the environment variable**
+  
    
    #### **Install HMMER in Ubuntu**  
    
