@@ -3,6 +3,8 @@
 # prPred
 prPred is a tool to identify the plant resistance proteins (R proteins) 
 
+prPred is an open-source Python-based toolkit, which operates depending on the Python environment (Python Version 3.0 or above). Before running prPred, user should make sure all the following packages are installed in their Python environment: subprocess, datetime, os, shutil, pandas,numpy, Biopython,sklearn,optparse
+
 
 ## **Prerequisites**
 
@@ -80,7 +82,17 @@ prPred is a tool to identify the plant resistance proteins (R proteins)
    **Add PFAMDB (Pfam-A.hmm.h3f，Pfam-A.hmm.h3i，Pfam-A.hmm.h3m，Pfam-A.hmm.h3p) into environment variables** 
    
    > export PFAMDB=/xxxx/xxxx/xxxx/Pfam  
+   
+   
 
+### 4. **iFeature**
+    
+    To obtain iFeature, please download from https://github.com/Superzchen/iFeature/.
+    
+   **Add iFeature into environment variables** 
+   
+   > export PATH=$PATH:/xxxx/xxxx/xxxxx/iFeature
+   
 
 ## **Installation**
 
@@ -124,6 +136,8 @@ $ -o  output folder
 **Download Ubuntu xx.x LTS from Microsoft Store
 
 > cd ../../  
+  cd mnt/x/xxxx/xxxx/  
+  git clone git@github.com:Wangys-prog/prPred.git  
 > cd mnt/x/xxxx/xxxx/prPred/  
 
 
