@@ -127,7 +127,7 @@ $ -o  output folder
 
 **Output file**
 
-> domain_result 
+> domain_result   
 > R_protein_possibility.fasta
  
  
