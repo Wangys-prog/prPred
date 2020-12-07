@@ -59,7 +59,7 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
       my $DECODEANHMM = "$PHOBIUS_DIR/decodeanhmm.64bit"
       '''
    
-   **Add phobius into environment variables**
+   **Add phobius into environment variables (~/.bashrc)**
    
    > export PATH=$PATH:/xxxx/xxxx/xxxxx/tmp/tmpbKioAY/phobius  
   
@@ -80,6 +80,7 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
     '''
    
    **Add PFAMDB (Pfam-A.hmm.h3f，Pfam-A.hmm.h3i，Pfam-A.hmm.h3m，Pfam-A.hmm.h3p) into environment variables** 
+   **vim ~/.bashrc**
    
    > export PFAMDB=/xxxx/xxxx/xxxx/Pfam  
    
@@ -89,7 +90,7 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
     
     To obtain iFeature, please download from https://github.com/Superzchen/iFeature/.
     
-   **Add iFeature into environment variables** 
+   **Add iFeature into environment variables (~/.bashrc)** 
    
    > export PATH=$PATH:/xxxx/xxxx/xxxxx/iFeature
    
