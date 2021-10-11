@@ -132,7 +132,7 @@ $ -o  output folder
 > R_protein_possibility.fasta
 
 ### For split_fasta.py
-   **Analyze your sequences one by one**
+   **Analyze your sequences one by one**  
    **Before using the script,please add prPred into into environment variables**
 > python split_fasta.py -i your fasta file
  
