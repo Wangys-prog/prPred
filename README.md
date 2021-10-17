@@ -145,4 +145,5 @@ $ -o  output folder
   git clone git@github.com:Wangys-prog/prPred.git  
 > cd mnt/x/xxxx/xxxx/prPred/  
 
-### If you use prPred, please cite: Wang Y, Wang P, Guo Y, et al. prPred: A Predictor to Identify Plant Resistance Proteins by Incorporating k-Spaced Amino Acid (Group) Pairs[J]. Frontiers in bioengineering and biotechnology, 2021, 8: 1593.
+## If you use prPred, please cite: Wang Y, Wang P, Guo Y, et al. prPred: A Predictor to Identify Plant Resistance Proteins by Incorporating k-Spaced Amino Acid (Group) Pairs[J]. Frontiers in bioengineering and biotechnology, 2021, 8: 1593.
+## Yansu Wang, Murong Zhou, Quan Zou, Lei Xu. Machine learning for phytopathology: from the molecular scale towards the network scale. Briefings in Bioinformatics. 2021, Doi: 10.1093/bib/bbab037
