@@ -95,7 +95,6 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
 
 ## **Installation**
 
-
 ###**prPred**
 
     git clone git@github.com:Wangys-prog/prPred.git  
