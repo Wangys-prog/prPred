@@ -96,7 +96,7 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
 ## **Installation**
 
 
-**prPred**
+###**prPred**
 
     git clone git@github.com:Wangys-prog/prPred.git  
 
@@ -123,17 +123,17 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
     python xxxx/xxxx/prPred/prPred.py -i /xxxx/xxxx/test/test.fasta -o /xxxx/xxxxx/result  
 
 
-**Output file**
+###**Output file**
 
     domain_result   
     R_protein_possibility.fasta
 
-### For split_fasta.py
+## For split_fasta.py
    **Analyze your sequences one by one**  
    **Before using the script,please add prPred into into environment variables**
     python split_fasta.py -i your fasta file
  
-### For windows 10 or later
+## For windows 10 or later
 
 **Download Ubuntu xx.x LTS from Microsoft Store
 
@@ -142,7 +142,7 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
     git clone git@github.com:Wangys-prog/prPred.git
     cd mnt/x/xxxx/xxxx/prPred/  
 
-### **If you use prPred, please cite:** 
+## **If you use prPred, please cite:** 
     (1) Wang Y, Wang P, Guo Y, et al. prPred: A Predictor to Identify Plant Resistance Proteins by Incorporating k-Spaced Amino Acid (Group) Pairs[J]. Frontiers in bioengineering and biotechnology, 2021, 8: 1593.
     (2) Yansu Wang, Murong Zhou, Quan Zou, Lei Xu. Machine learning for phytopathology: from the molecular scale towards the network scale. Briefings in Bioinformatics. 2021, Doi: 10.1093/bib/bbab037
     (3) Yansu Wang, Lei Xu, Quan Zou, Chen Lin. prPred-DRLF: plant R protein predictor using deep representation learning features. Proteomics. 2021. DOI: 10.1002/pmic.202100161
