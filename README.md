@@ -108,21 +108,16 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
 
 
 ## Input parameters
-
     prPred -h  
     $ -i  inputfile in FASTA format  
     $ -o  output folder  
-
 ### usage
-
     prPred -i /xxxx/xxxx/test/test.fasta -o result  
-
 **or**
 **Using absolute path to invoke prPred.py (/xxxx/xxxx/prPred/prPred.py)**
 
     python xxxx/xxxx/prPred/prPred.py -i /xxxx/xxxx/test/test.fasta -o /xxxx/xxxxx/result  
-
-
+      
 ###**Output file**
 
     domain_result   
