@@ -34,11 +34,11 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
       make install  
  
    #### **prPred need add HMMER to the environment variable (/usr/bin/;/usr/local/bin/)**
-   > vim ~/.bashrc    
-   i    
-   export PATH=$PATH:/your/install/path  
-   :wq!  
-   > source ~/.bashrc  
+      vim ~/.bashrc
+      i
+      export PATH=$PATH:/your/install/path
+      :wq!
+      source ~/.bashrc  
 
 ### 2. **phobius**
 
@@ -48,10 +48,9 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
    installation procedure  https://www.jianshu.com/p/32176552cb5c
    
    <**The software will be shipped immediately in the form of an attachment to the e-mail address you specify below**>
-    
-   > tar -xzvf phobius101_linux.tar.gz  
-
-   > cd /xxxx/xxxx/xxxx/tmp/tmpbKioAY/phobius
+      
+      tar -xzvf phobius101_linux.tar.gz
+      cd /xxxx/xxxx/xxxx/tmp/tmpbKioAY/phobius
    
       '''
       Error - could not read provided fasta sequences
@@ -60,8 +59,8 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
       '''
    
    **Add phobius into environment variables (~/.bashrc)**
-   
-   > export PATH=$PATH:/xxxx/xxxx/xxxxx/tmp/tmpbKioAY/phobius  
+      
+      export PATH=$PATH:/xxxx/xxxx/xxxxx/tmp/tmpbKioAY/phobius  
   
   
    
@@ -69,11 +68,11 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
 
    To obtain Pfam database,please download from  ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
    
-   > mkdir Pfam  
+     mkdir Pfam  
      cd Pfam  
      wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz  
      gunzip Pfam-A.hmm.gz   
-   > hmmpress Pfam-A.hmm  
+     hmmpress Pfam-A.hmm  
    
     '''
     After hmmpress, we will get four files: Pfam-A.hmm.h3f，Pfam-A.hmm.h3i，Pfam-A.hmm.h3m，Pfam-A.hmm.h3p
@@ -82,7 +81,7 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
    **Add PFAMDB (Pfam-A.hmm.h3f，Pfam-A.hmm.h3i，Pfam-A.hmm.h3m，Pfam-A.hmm.h3p) into environment variables** 
    **vim ~/.bashrc**
    
-   > export PFAMDB=/xxxx/xxxx/xxxx/Pfam  
+      export PFAMDB=/xxxx/xxxx/xxxx/Pfam  
    
    
 
@@ -92,7 +91,7 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
     
    **Add iFeature into environment variables (~/.bashrc)** 
    
-   > export PATH=$PATH:/xxxx/xxxx/xxxxx/iFeature
+     export PATH=$PATH:/xxxx/xxxx/xxxxx/iFeature
    
 
 ## **Installation**
@@ -100,51 +99,51 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
 
 **prPred**
 
-> git clone git@github.com:Wangys-prog/prPred.git  
+    git clone git@github.com:Wangys-prog/prPred.git  
 
 **Add prPred into into environment variables**
 
 **(./prPred/dist/prPred)**
 
-> export PATH=$PATH:/xxxx/xxxx/xxxx/prPred/dist/prPred  
+    export PATH=$PATH:/xxxx/xxxx/xxxx/prPred/dist/prPred  
 
 
 ## Input parameters
 
-
-> prPred -h  
-$ -i  inputfile in FASTA format  
-$ -o  output folder  
+    prPred -h  
+    $ -i  inputfile in FASTA format  
+    $ -o  output folder  
 
 ### usage
 
-> prPred -i /xxxx/xxxx/test/test.fasta -o result  
+    prPred -i /xxxx/xxxx/test/test.fasta -o result  
 
 **or**
 **Using absolute path to invoke prPred.py (/xxxx/xxxx/prPred/prPred.py)**
 
-> python xxxx/xxxx/prPred/prPred.py -i /xxxx/xxxx/test/test.fasta -o /xxxx/xxxxx/result  
+    python xxxx/xxxx/prPred/prPred.py -i /xxxx/xxxx/test/test.fasta -o /xxxx/xxxxx/result  
 
 
 **Output file**
 
-> domain_result   
-> R_protein_possibility.fasta
+   domain_result   
+   R_protein_possibility.fasta
 
 ### For split_fasta.py
    **Analyze your sequences one by one**  
    **Before using the script,please add prPred into into environment variables**
-> python split_fasta.py -i your fasta file
+   python split_fasta.py -i your fasta file
  
 ### For windows 10 or later
 
 **Download Ubuntu xx.x LTS from Microsoft Store
 
-> cd ../../  
-  cd mnt/x/xxxx/xxxx/  
-  git clone git@github.com:Wangys-prog/prPred.git  
-> cd mnt/x/xxxx/xxxx/prPred/  
+   cd ../../
+   cd mnt/x/xxxx/xxxx/
+   git clone git@github.com:Wangys-prog/prPred.git
+   cd mnt/x/xxxx/xxxx/prPred/  
 
-#### If you use prPred, please cite: Wang Y, Wang P, Guo Y, et al. prPred: A Predictor to Identify Plant Resistance Proteins by Incorporating k-Spaced Amino Acid (Group) Pairs[J]. Frontiers in bioengineering and biotechnology, 2021, 8: 1593.
-#### Yansu Wang, Murong Zhou, Quan Zou, Lei Xu. Machine learning for phytopathology: from the molecular scale towards the network scale. Briefings in Bioinformatics. 2021, Doi: 10.1093/bib/bbab037
-#### Yansu Wang, Lei Xu, Quan Zou, Chen Lin. prPred-DRLF: plant R protein predictor using deep representation learning features. Proteomics. 2021. DOI: 10.1002/pmic.202100161
+#### If you use prPred, please cite: 
+     (1) Wang Y, Wang P, Guo Y, et al. prPred: A Predictor to Identify Plant Resistance Proteins by Incorporating k-Spaced Amino Acid (Group) Pairs[J]. Frontiers in bioengineering and biotechnology, 2021, 8: 1593.
+     (2) Yansu Wang, Murong Zhou, Quan Zou, Lei Xu. Machine learning for phytopathology: from the molecular scale towards the network scale. Briefings in Bioinformatics. 2021, Doi: 10.1093/bib/bbab037
+     (3) Yansu Wang, Lei Xu, Quan Zou, Chen Lin. prPred-DRLF: plant R protein predictor using deep representation learning features. Proteomics. 2021. DOI: 10.1002/pmic.202100161
