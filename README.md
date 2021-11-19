@@ -20,18 +20,18 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
    
    #### **Install HMMER in Ubuntu**  
    
-   > sudo apt-get install hmmer
+      sudo apt-get install hmmer
    
    #### **Another way to install it**
    **Download and build the source code release(optional)**
    
-   > wget http://eddylab.org/software/hmmer/hmmer.tar.gz  
-   tar zxf hmmer.tar.gz  
-   cd hmmer-3.3.2  
-   ./configure --prefix /your/install/path  
-   make  
-   make check  
-   > make install  
+      wget http://eddylab.org/software/hmmer/hmmer.tar.gz
+      tar zxf hmmer.tar.gz
+      cd hmmer-3.3.2
+      ./configure --prefix /your/install/path
+      make
+      make check
+      make install  
  
    #### **prPred need add HMMER to the environment variable (/usr/bin/;/usr/local/bin/)**
    > vim ~/.bashrc    
