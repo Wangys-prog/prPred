@@ -125,7 +125,7 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
 
 ## For split_fasta.py
 **Analyze your sequences one by one**  
-**Before using the script,please add prPred into into environment variables
+**Before using the script,please add prPred into into environment variables**
     
       python split_fasta.py -i your fasta file
  
