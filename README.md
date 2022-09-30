@@ -1,6 +1,6 @@
-# <prPred>
+# <prPred> Python3.7
    
-# prPred
+# prPred 
 prPred is a tool to identify the plant resistance proteins (R proteins) 
 
 prPred is an open-source Python-based toolkit, which operates depending on the Python environment (Python Version 3.7). Before running prPred, user should make sure all the following packages are installed in their Python environment: subprocess, datetime, os, shutil, pandas,numpy, Biopython,sklearn,optparse
