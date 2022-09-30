@@ -113,7 +113,7 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
 ### usage (Python Version 3.0 or above)
     prPred -i /xxxx/xxxx/test/test.fasta -o result  
 **or**
-**Using absolute path to invoke prPred.py (/xxxx/xxxx/prPred/prPred.py)** , this command run using python3.7
+**Using absolute path to invoke prPred.py (/xxxx/xxxx/prPred/prPred.py)** ,this command run using python3.7
 
     python 3.7 xxxx/xxxx/prPred/prPred.py -i /xxxx/xxxx/test/test.fasta -o /xxxx/xxxxx/result  
       
