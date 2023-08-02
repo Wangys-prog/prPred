@@ -123,10 +123,20 @@ prPred is an open-source Python-based toolkit, which operates depending on the P
     R_protein_possibility.fasta
 
 ## For split_fasta.py
-**Analyze your sequences one by one**  
+**Analyze your sequences such as 20 sequences**  
 **Before using the script,please add prPred into into environment variables**
-    
-      python split_fasta.py -i your fasta file
+**split your large fasta file into small fasta file with such as 20 sequence**
+**if you fasta has total 100 sequences,you can split you fasta into 5 small fasta files**    
+     
+     seqkit split your.fasta -p 5
+
+**then using split_fasta2.py to predict R protein sequences** 
+
+     python split_fasta.py -i your split_fasta folder
+
+**merge your result**
+
+    python merge_result.py -i split_fasta_result -o merged_result.csv
  
 ## For windows 10 or later
 
