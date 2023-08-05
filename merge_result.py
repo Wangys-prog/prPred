@@ -27,7 +27,18 @@ def merge_tables (input,output):
     # 逐个读取并合并 CSV 文件
     for file in all_csv_files:
         try:
-            df = pd.read_csv(file)  # 读取 CSV 文件
+            with open(file+".csv", 'w', newline='') as csvfile:
+                writer = csv.writer(csvfile)
+                with open(file, 'r') as f:
+                    file_name = os.path.basename(file)
+                    content = f.read()
+                    cols = content.split(',')
+                    num_cols = len(cols)
+                    row = [file_name]
+                    for col in cols:
+                        row.append(col.strip())
+                    writer.writerow(row)
+            df = pd.read_csv(file+".csv")
             merged_data = pd.concat([merged_data, df], ignore_index=True)  # 合并数据
         except pd.errors.ParserError as e:
             print(f"解析文件 {file} 时出错：{e}")
